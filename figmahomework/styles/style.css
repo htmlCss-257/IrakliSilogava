@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+#header{
+    width: 960px;
+    height: 90px;
+}
+nav a{
+    font-size: 24px;
+    font-family: 'roboto';
+    color: black;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 40px;
+    width: 960px;
+}
+#a3{
+    margin-left: -70px;
+}
+#p1{
+    width: 340px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 64px;
+    margin-left: 270px;
+}
+.img1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#img1{
+    height: 150px;
+    width: 200px;
+}
+#img2{
+    height: 150px;
+    width: 225px;
+}
+#img3{
+    height: 150px;
+    width: 100px;
+}
+ul{
+    font-size: 18px;
+}
+#ul1{
+    margin-left: 70px;
+}
+#ul2{
+    margin-left: 30px;
+}
+#ul3{
+    margin-left: 80px;
+}
+#p2{
+    width: 845px;
+    height: 200px;
+    margin-left: 30px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    border:1px solid black;
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+}
+#inp1{
+    width: 930px;
+    height: 20px;
+}
+#inp2{
+    width: 930px;
+    height: 20px;
+}
+.div1{
+    display: flex;
+    border: 9px solid black;
+    display: flex;
+    display: inline;
+}
