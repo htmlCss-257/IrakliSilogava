@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 250px;
+    padding: 50px;
+    margin-left: 120px;
+}
+table{
+    border:1px dashed black;
+    border-collapse: collapse;
+}
+th{
+    border:1px dashed black;
+    background-color: aqua;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    border:1px dashed black;
+    background-color: yellowgreen;
+    border-collapse: collapse;
+}
