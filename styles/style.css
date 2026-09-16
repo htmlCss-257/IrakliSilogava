@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Idiqlat:wght@200;300;400&display=swap');
+@font-face {
+    font-family: fonts;
+    src: url(../fonts/bpg_nino_mtavruli_bold.ttf);
+}
+header{
+    font-family: "Idiqlat", serif;
+    background-color: #ff0000;
+    display: inline;
+    margin-left: 420px;
+    font-size: 50px;
+}
+div{
+    display: flex;
+}
+img{
+    width: 350px;
+    height: 450px;
+    padding: 50px;
+    margin-top: 50px;
+}
+#img1:hover{
+    width: 450px;
+    height: 550px;
+    cursor: pointer;
+}
+#img2:hover{
+    width: 450px;
+    height: 550px;
+    cursor: pointer;
+}
+#img3:hover{
+    width: 450px;
+    height: 550px;
+    cursor: pointer;
+}
+p{
+    font-family: fonts;
+    font-size: 20px;
+}
+#p1{
+    font-family: "Idiqlat", serif;
+    font-size: 60px;
+}
+table{
+    margin-left: 260px;
+    border:1px solid black;
+    border-radius: 25px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+
+}
+td,th{
+    padding: 30px;
+}
+th{
+    background-color: #d1ff8b;
+}
+td:hover{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: black;
+}
+th:hover{
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    color: #adff2f;
+
+}
+input{
+    margin-top: 40px;
+    font-size: 30px;
+}
+#input1:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white ;
+    border-radius: 25px;
+}
+#input2:hover{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+}
+#input2:active{
+    background-color: #d1ff8b;
+    color: blue;
+}
