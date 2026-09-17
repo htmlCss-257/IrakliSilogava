@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+#div1{
+    width: 960px;
+    height: 978px;
+    background-color: white;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content:center ;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+#div2{
+    font-family: 'roboto';
+    margin-top: 40px;
+    font-size: 24px;
+}
+#shedule{
+    margin-left: 155px;
+    color: black;
+}
+#about{
+    margin-left: 129px;
+    color: black;
+}
+#club{
+    margin-left: 94px;
+    color: black;
+}
+#bouldering{
+    font-family: 'roboto';
+    margin-left: 310px;
+    margin-top: 80px;
+    font-size: 64px;
+}
+#img1{
+    width: 200px;
+    height: 150px;
+}
+#div3{display: flex;
+    margin-top: 0;
+}
+#first{
+    display: flex;
+    margin-left: 100px;
+}
+#second{
+    display: flex;
+    margin-left: 40px;
+}
+#third{
+    display: flex;
+    margin-left:55px;
+}
+ul{
+    margin-top: 0;
+    font-size: 35px;
+}
+li{
+    margin-top: -0.5px;
+    line-height: 20px;
+}
+#text{
+    margin-left: 40px;
+    border:1px solid;
+    border-radius: 30px;
+    width: 845px;
+    height: 200px;
+    font-family: 'roboto';
+    font-size: 24px;
+    padding: 15px;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 15px;
+}
+#emailinput{
+    height: 40px;
+}
+#phoneinput{
+    margin-top: 15px;
+    height: 40px;
+}
