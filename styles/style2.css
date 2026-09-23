@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.background{
+    background:linear-gradient(to bottom,#151515,#4538EC);
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    margin: 0;
+}
+#logo{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 37px;
+    left: 22px;
+}
+#music{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    background: linear-gradient(to bottom,#D574F8,#F6E868);
+    background-clip: text;
+    color: transparent; 
+    left: 72px;
+    top: 6px;
+}
+#discover{
+    height: 84px;
+    width: 492px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    left: 291px;
+    top: 337px;
+}
+.vmc{
+    position: absolute;
+    margin: 0;
+    left: 292px;
+    top: 412px;
+    display: flex;
+    gap: 47px;
+}
+.vector1{
+    width: 98px;
+    height: 100px;
+    background:linear-gradient(to bottom,#2E2E2E,#2E2E2E00);
+    display: flex;
+    flex-direction: column;
+}
+#vector{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 17px;
+    top: 10px;
+}
+#charts{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    top: 40px;
+}
+.albumdiv{
+    width: 98px;
+    height: 100px;
+    background:linear-gradient(to bottom,#2E2E2E,#2E2E2E00);
+    display: flex;
+    flex-direction: column;
+}
+#albumimg{
+    position: relative;
+    width: 57px;
+    height: 60px;
+    margin-left: 21px;
+    top: 11px;
+}
+#albums{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    top: 55px;
+    margin-left: 15px;
+}
+.morediv{
+    width: 90px;
+    height: 100px;
+    background:linear-gradient(to bottom,#2E2E2E,#2E2E2E00);
+    display: flex;
+    flex-direction: column;
+}
+.morediv1{
+    width: 49px;
+    height: 47px;
+    margin-left: 23px;
+    margin-top: 18px;
+}
+#more{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+#joinhere{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 372px;
+    margin-top: 135px;
+}
+#img1{
+    width: 213px;
+    height: 191px;
+}
+#img2{
+    position: relative;
+    width: 194px;
+    height: 191px;
+    right: 4px;
+}
+.imgdiv{
+    position: relative;
+    margin-left: 878px;
+    margin-top: 314px;
+    
+}
+#img3{
+    width: 213px;
+    height: 204px;
+}
+#img4{
+    position: relative;
+    width: 195px;
+    height: 204px;
+    right: 4px;
+}
+.seconddiv{
+    position: relative;
+    bottom: 4px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.background{
+    background:linear-gradient(to bottom,#151515,#4538EC);
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+}
+#logo{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 37px;
+    left: 22px;
+}
+#music{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    background: linear-gradient(to bottom,#D574F8,#F6E868);
+    background-clip: text;
+    color: transparent; 
+    left: 72px;
+    top: 6px;
+}
+.navdiv{
+    position: absolute;
+    display: flex;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+#discover{
+    font-size: 28px;
+    margin-top: 44px;
+    margin-left: 944px;
+}
+#join{
+    font-size: 27px;
+    margin-left: 92px;
+    margin-top: 43px;
+}
+#more{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    left: 856px;
+    right: 36px;
+    top: 335px;
+}
+#joinbtn{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding: 10px 20px 10px 20px;
+    background:linear-gradient(to bottom,#FFFFFF,#6993FF);
+    border-radius: 7px;
+    left: 1020px;
+    right: 156px;
+    top: 444px;
+    width: 209px;
+}
+#girl{
+    width: 707px;
+    height: 591px;
+    margin-top: 457px;
+    left: -32px;
+}
