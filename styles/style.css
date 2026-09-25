@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.backgrounddiv{
+    width: 1920px;
+    height: 960px;
+    background-color: #69B99D;
+}
+.centerdiv{
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    background-color: white;
+    margin-left: 320px;
+    margin-top: 120px;
+}
+body{
+    margin: 0;
+}
+#treine{
+    margin-top: 0;
+    position: absolute;
+    font-family: "Inter", sans-serif;;
+    font-size: 22px;
+    font-weight: 700;
+    color: #89C5CC;
+    margin-top: 64px;
+    margin-left: 120px;
+}
+.nav{
+    position: relative;
+    display: flex;
+    margin-top: -20px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    color: #1F1534;
+    font-weight: 400;
+    margin-left: 883px;
+    margin-top: 64px;
+    gap: 48px;
+}
+#home{
+    font-weight: 700;
+}
+#opa{
+    opacity: 50%;
+}
+.txtdiv{
+    position: absolute;
+    top: 0;
+    left: 120px;
+    top: 200px;
+    width: 560px;
+    height: 342px;
+}
+#workouts{
+    font-family: "Mulish", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    width: 560px;
+    height: 144px;
+}
+#span{
+    font-family: "Mulish", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 560px;
+    height: 144px;
+    color: #89C5CC;
+}
+#wecreate{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#7D7987;
+    width: 448px;
+    height: 78px;
+    margin-top: -64px;
+}
+#button{
+    position: absolute;
+    bottom: 0;
+    width: 169px;
+    height: 56px;
+    background-color: #69B99D;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+}
+i{
+    font-size: 20px;
+    color: white;
+    margin-right: 8px;
+}
+img{
+    position: absolute;
+    bottom: 0;
+    bottom: 124px;
+    left: 737px;
+}
+#exclusive{
+    font-weight: 700;
+    line-height: 160%;
+}
+#sendus{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 550px;
+    margin-left: 500px;
+}
+#treineme{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px;
+}
