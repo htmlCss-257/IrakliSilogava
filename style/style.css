@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+main {
+    background-color: #69B99D;
+    width: 100%;
+    height: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main {
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.navdiv {
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    gap: 657px;
+    margin-left: 120px;
+    margin-top: 64px;
+}
+
+.adiv {
+    display: flex;
+    gap: 48px;
+}
+
+.adiv a {
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1534;
+    opacity: 50%;
+}
+
+#home {
+    opacity: 100%;
+    font-weight: 700;
+}
+
+.treineme {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #89C5CC;
+}
+
+.main2 {
+    width: 1040px;
+    height: 515px;
+    margin: 0;
+    margin-top: 21px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.left {
+    width: 560px;
+    height: 342px;
+    margin-top: 60px;
+}
+
+#workouts {
+    font-family: "Mulish", sans-serif;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+}
+
+.workoutsdiv {
+    width: 560px;
+    height: 144px;
+    margin: 0 auto;
+}
+
+#exclusive {
+    color: #89C5CC;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+#wecreate {
+    width: 433px;
+    height: 78px;
+}
+
+.wecreatediv {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.wecreatediv p {
+    margin: 0;
+    color: #7D7987;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#exc {
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    background-color: #69B99D;
+    color: white;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 48px;
+}
+
+#buttonimg {
+    width: 20px;
+    height: 20px;
+    border: 1px solid transparent;
+}
+
+#startnow {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#sendus {
+    margin: 0;
+    width: 592px;
+    height: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-left: 344px;
+    margin-top: 45px;
+}
+
+#treineme2 {
+    font-weight: 700;
+}
+
+#ball {
+    margin-left: 1194px;
+    margin-top: -51px;
+}
