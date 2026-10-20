@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/Registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header>
+        <div class="logodiv">
+            <div class="logo"><img src="images/restaurantlogo.png" alt=""></div>
+            <div class="gemovani">
+                <h3 id="gemovani2">გემოვანი</h3>
+                <p id="gemovani3">GEMOVANI RESTAURANT</p>
+            </div>
+        </div>
+        <nav>
+            <a href="">მთავარი</a>
+            <a target="_blank" href="">ჩვენს შესახებ</a>
+            <div class="services">
+                <a class="services2">სერვისები <i class="fa-solid fa-arrow-down-long"></i></a>
+                <div class="services3">
+                    <a href="">საბანკეტო დარბაზი <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="">კერძო ვახშამი <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="">ღვინის დეგუსტაცია <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <a href="">ბლოგი</a>
+            <a href="">კონტაქტი/ჯავშანი</a>
+        </nav>
+        <div class="shesvla">
+            <button id="shesvla">რეგისტრაცია</button>
+            <img id="loginimg" src="images/Background.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="maindiv">
+            <h1>შემოუერთდით გემოვანის კლუბს</h1>
+            <p id="reg">რეგისტრაცია</p>
+            <div class="maindiv2">
+                <div class="piradi">
+                    <p id="pir">1</p>
+                    <p id="pirm">პირადი მონაცემები</p>
+                    <p id="auci">აუცილებელი ველები</p>
+                </div>
+                <div class="xazi"></div>
+                <form action="Registration">
+                    <div class="saxeli">
+                        <div>
+                            <label for="name">სახელი *</label>
+                            <input type="text" id="name" name="name" placeholder="ლიზა">
+                        </div>
+                        <div>
+                            <label for="surname">გვარი *</label>
+                            <input type="text" name="surname" id="surname" placeholder="გვარამია">
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label>ელექტრონული ფოსტა *</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="tel">
+                        <label for="tel">ტელეფონის ნომერი *</label>
+                        <input type="tel" name="tel" id="tel" placeholder="+995 *** ** ** **">
+                        <p>ნომერი გამოიყენება ჯავშნის დასადასტურებლად SMS შეტყობინებით</p>
+                    </div>
+                </form>
+                <div class="meor">
+                    <p id="meo">2</p>
+                    <p id="usa">უსაფრთხოება & პაროლი</p>
+                    <p id="min">მინ. 8 სიმბოლო</p>
+                </div>
+                <div class="xazi2"></div>
+                <form class="paroli">
+                    <div>
+                        <label>პაროლი</label>
+                        <input type="password" placeholder=" მინიმუმ 8 სიმბოლო">
+                    </div>
+                    <div>
+                        <label> გაიმეორეთ პაროლი</label>
+                        <input type="password" placeholder="გაიმეორეთ პაროლი">
+                    </div>
+                </form>
+                <div class="mesame">
+                    <p>3</p>
+                    <p>პროფილი & გასტრონომიული ინტერესები</p>
+                    <p>პერსონალიზაცია</p>
+                </div>
+                <div class="xazi3"></div>
+                <p id="stumrobis">სტუმრობის ხასიათი</p>
+                <div class="maindiv3">
+                    <div class="maindiv31">
+                        <div><input type="radio"></div>
+                        <div class="indi">
+                            <p>ინდივიდუალური</p>
+                            <p>ოჯახური / მეგობრები</p>
+                        </div>
+                    </div>
+                    <div class="maindiv32">
+                        <div>
+                            <input type="radio">
+                        </div>
+                        <div class="biznes">
+                            <p>ბიზნეს შეხვედრა</p>
+                            <p>საქმიანი ვახშმები</p>
+                        </div>
+                    </div>
+                    <div class="maindiv33">
+                        <div>
+                            <input type="radio">
+                        </div>
+                        <div class="ivent">
+                            <p>ივენთ-ორგანიზატორი</p>
+                            <p>ბანკეტები / ქორწილები</p>
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <p id="interesebi1">ინტერესები & შეტყობინებები</p>
+                    <div class="interesebi">
+                        <div>
+                            <input type="checkbox">
+                            <label><img src="images/Icon3.svg" alt=""> ინტერესები & შეტყობინებები</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label><img src="images/Icon-8.png" alt=""> ღვინის დეგუსტაციის საღამოები</label>
+                        </div>
+
+                    </div>
+                    <div class="shexseneba">
+                        <div>
+                            <input type="checkbox">
+                            <label><img src="images/Icon4.svg" alt=""> SMS შეხსენება ჯავშნებზე</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label><img src="images/Icon2.svg" alt=""> სადღესასწაულო შეთავაზებები</label>
+                        </div>
+                    </div>
+                    <div class="wesebsa">
+                        <input type="checkbox">
+                        <p>ვადასტურებ, რომ ვარ სრულწლოვანი და ვეთანხმები რესტორნის<a href=""> წესებსა </a>და <a href=""> კონფიდენციალურობის პოლიტიკას. </a></p>
+                    </div>
+                </form>
+                <a id="shekmna" href="">ანგარიშის შექმნა <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="gaqvt">
+                    <p>უკვე გაქვთ ანგარიში?</p>
+                    <a href="">გაიარეთ ავტორიზაცია</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
